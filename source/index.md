@@ -14,12 +14,13 @@ From [Wikipedia](http://en.wikipedia.org/wiki/Regression_analysis):
 > variable (or 'criterion variable') changes when any one of the independent
 > variables is varied, while the other independent variables are held fixed.
 
-In plain English, a regression takes a series of data points and tries to
-draw a line through them that's as close to all of them as possible. You can use
-that line to then make predictions about values not in your data-set. That line
-may describe the data very well or it may describe it poorly, so there are also
-facilities included to tell you just how well the line explains the data and
-what kind of spread you can expect around that trend line.
+In plain English, a regression takes a series of data points, as you would see
+in a scatter-plot, for example, and tries to draw a line through them that's as
+close to all of them as possible. You can use that line to then make predictions
+about values not in your data-set. That line may describe the data very well or
+it may describe it poorly, so there are also facilities included to tell you
+just how well the line explains the data and what kind of spread you can expect
+around that trend line.
 
 ## Installation
 
