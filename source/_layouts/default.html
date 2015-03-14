@@ -5,6 +5,10 @@
         <title>{{ page.title ?: 'Regression' }}</title>
     </head>
     <body>
+        <header>
+            <h1>PHP Regression</h1>
+        </header>
+        
         <nav>
             <ul>
                 <li><a href="{{ site.url }}">Home</a></li>
@@ -15,6 +19,8 @@
             </ul>
         </nav>
         
-        {% block content %}{% endblock %}
+        <article>
+            {% block content %}{% endblock %}
+        </article>
     </body>
 </html>
