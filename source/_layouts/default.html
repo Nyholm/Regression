@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>{{ page.title ?: 'Regression' }}</title>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="{{ site.url }}">Home</a></li>
+                <li><a href="{{ site.url }}/getting-started">Getting Started</a></li>
+                <li><a href="{{ site.url }}/advanced-usage">Advanced Usage</a></li>
+                <li><a href="{{ site.url }}/non-linear">Non-linear Regression</a></li>
+                <li><a href="{{ site.url }}/extending">Extending</a></li>
+            </ul>
+        </nav>
+        
+        {% block content %}{% endblock %}
+    </body>
+</html>
