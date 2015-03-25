@@ -1,19 +1,38 @@
 /* Palette: http://www.materialpalette.com/green/blue-grey */
 
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
 body {
-    background: #c8e6c9;
     color: #212121;
     font-family: "Open Sans", Arial, sans-serif;
     font-size: 16px;
 }
 
+h1, h2 {
+    color: #727272;
+    font-family: Lato, Arial, sans-serif;
+}
+
+a {
+    color: #607d8b;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #607d8b;
+}
+
 #top-bar {
-    position: sticky;
-    top: 0;
 }
 
 #page-header {
     background: #4caf50;
+}
+
+#page-header h1 {
+    color: #fff;
+    font-family: Lato, Arial, sans-serif;
 }
 
 #page-navigation {
@@ -40,6 +59,7 @@ body {
 #page-navigation a {
     color: #fff;
     text-decoration: none;
+    transition: color 0.5s;
 }
 
 #page-navigation a:visited {
