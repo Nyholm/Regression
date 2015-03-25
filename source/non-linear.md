@@ -12,7 +12,7 @@ interface with the following methods:
 
     $regression->setDependentLinking($linking); // To transform Y values
     $regression->setIndependentLinking($linking); // To transform X values regardless of position in the data
-    $regression->setIndependentLinking($linking, $index); // To transform the X values that are at $index position in the data in preference to the linking set above
+    $regression->setIndependentLinking($linking, $index); // To transform the X values that are at $index position
 
 Some implementations of this interface that cover common transformations come
 standard in the library. 
