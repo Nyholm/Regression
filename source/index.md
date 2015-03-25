@@ -35,7 +35,7 @@ If CLI isn't your thing, you could add the following line to the `require`
 section of your `composer.json` and then have Composer update your required
 dependencies:
 
-    "mcordingley/regression": "~0.9.5"
+    "mcordingley/regression": "~0.9.7"
 
 Don't forget to include `vendor/autoload.php` somewhere in your code, if you
 aren't using a framework that does this for you. With that, you're good to
