@@ -1,0 +1,54 @@
+/* Palette: http://www.materialpalette.com/green/blue-grey */
+
+body {
+    background: #c8e6c9;
+    color: #212121;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 16px;
+}
+
+#top-bar {
+    position: sticky;
+    top: 0;
+}
+
+#page-header {
+    background: #4caf50;
+}
+
+#page-navigation {
+    background: #388e3c;
+}
+
+#page-navigation ul {
+    list-style: none;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+#page-navigation li {
+    display: inline-block;
+}
+
+#page-navigation li + li {
+    margin-left: 1em;
+}
+
+#page-navigation a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#page-navigation a:visited {
+    color: #fff;
+}
+
+#page-navigation a:hover {
+    color: #c8e6c9;
+}
+
+#page-content {
+}
