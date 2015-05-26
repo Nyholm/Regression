@@ -1,5 +1,4 @@
 ---
-layout: default
 ---
 
 # Non-Linear Regressions

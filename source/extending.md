@@ -1,5 +1,4 @@
 ---
-layout: default
 ---
 
 # Extending the Library
