@@ -1,4 +1,5 @@
 ---
+layout: default
 ---
 
 # Descriptive Statistics
